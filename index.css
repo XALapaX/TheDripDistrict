@@ -91,7 +91,7 @@ div, section, span, ul, li, a{
 
 section{
     width:100%;
-    height: 100vh;
+   
 }
 
 
@@ -278,6 +278,12 @@ h2 {
 .icon2 {
   position: absolute;
   right: 6%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.icon3 {
+  position: absolute;
+  right: 10%;
   display: inline-flex;
   justify-content: space-between;
 }

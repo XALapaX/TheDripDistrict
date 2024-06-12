@@ -156,9 +156,9 @@ body {
     </div>
     <div class="product-details">
         <h4><?= $produto['Nome'] ?></h4>
-        <form id="compraForm">
+        <form id="compraForm"  action="carrinho.php" method="post">
             <label for="tamanho">Escolha o tamanho:</label>
-            <select id="tamanho">
+            <select id="tamanho" name="tamanho">
                 <option value="35">S</option>
                 <option value="36">M</option>
                 <option value="37">L</option>
@@ -169,6 +169,8 @@ body {
             <br>
             <div class="preco">Preço: <?= $produto['Preco'] ?>€</div>
             <button class="button">Adicionar ao carrinho</button>
+            <input type="hidden" name="id" value="<?= $produto['Codproduto'] ?>" />
+            <input type="hidden" name="acao" value="add" />
         </form>
     </div>
 </section>
