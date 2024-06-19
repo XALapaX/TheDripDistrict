@@ -33,6 +33,7 @@ if (isset($_SESSION['email'])) {
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
+<<<<<<< HEAD
 <style>
         footer {
             background-color: #1a1a1a;
@@ -135,11 +136,18 @@ if (isset($_SESSION['email'])) {
             }
         }
 </style>
+=======
+
+>>>>>>> ed697891fd5aa89578363c592c731786af1ed493
 <body>
 
     <?php include_once("menu.php"); ?>
 
+<<<<<<< HEAD
     <div id="userSidebar" class="sidebar">
+=======
+    <div id="sidebar" class="sidebar">
+>>>>>>> ed697891fd5aa89578363c592c731786af1ed493
         <div class="sidebar-content">
             <?php if (isset($_SESSION['email'])) : ?>
                 <p>Olá, <?php echo $_SESSION['Nome']; ?></p>
@@ -148,6 +156,7 @@ if (isset($_SESSION['email'])) {
         </div>
     </div>
 
+<<<<<<< HEAD
     <div id="cartSidebar" class="sidebar">
         <div class="sidebar-content">
             <?php echo getCartDetails(); ?>
@@ -159,6 +168,8 @@ if (isset($_SESSION['email'])) {
         </div>
     </div>
 
+=======
+>>>>>>> ed697891fd5aa89578363c592c731786af1ed493
     <section class="slide">
         <div class="slide-content">
             <div class="slide-box">
@@ -201,6 +212,7 @@ if (isset($_SESSION['email'])) {
         </section>
     </section>
     <!-- <footer>teste</footer> -->
+<<<<<<< HEAD
     
     <footer>
         <div class="footer-container">
@@ -241,6 +253,11 @@ if (isset($_SESSION['email'])) {
 
         function toggleSidebar() {
             var sidebar = document.getElementById("userSidebar");
+=======
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("sidebar");
+>>>>>>> ed697891fd5aa89578363c592c731786af1ed493
             if (sidebar.style.width === "250px") {
                 sidebar.style.width = "0";
             } else {
@@ -248,8 +265,14 @@ if (isset($_SESSION['email'])) {
             }
         }
     </script>
+<<<<<<< HEAD
 
     
 </body>
 
 </html>
+=======
+</body>
+
+</html>
+>>>>>>> ed697891fd5aa89578363c592c731786af1ed493

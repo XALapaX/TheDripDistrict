@@ -19,6 +19,7 @@ box-sizing: border-box;
 
 }
 
+<<<<<<< HEAD
 .icon9 {
 position: absolute;
 top: 15%;
@@ -34,6 +35,9 @@ font-size: x-large;
   }
 
 .icon2 {
+=======
+.icon4 {
+>>>>>>> ed697891fd5aa89578363c592c731786af1ed493
   position: absolute;
   right: 6%;
   display: inline-flex;

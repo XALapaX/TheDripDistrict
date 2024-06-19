@@ -90,8 +90,13 @@ float: right;
 }
 
 section{
+<<<<<<< HEAD
   width:100%;
  
+=======
+    width:100%;
+   
+>>>>>>> ed697891fd5aa89578363c592c731786af1ed493
 }
 
 
@@ -286,6 +291,12 @@ position: absolute;
 right: 10%;
 display: inline-flex;
 justify-content: space-between;
+}
+.icon3 {
+  position: absolute;
+  right: 10%;
+  display: inline-flex;
+  justify-content: space-between;
 }
 .produtos h1 {
 padding: 20px;

@@ -154,6 +154,7 @@ body {
         <form id="compraForm"  action="carrinho.php" method="post">
             <label for="tamanho">Escolha o tamanho:</label>
             <select id="tamanho" name="tamanho">
+<<<<<<< HEAD
                 <option value="S">S</option>
                 <option value="M">M</option>
                 <option value="L">L</option>
@@ -164,6 +165,18 @@ body {
             <br>
             <div class="preco">Preço: <?= $produto['Preco'] ?>€</div>
             <a href="#"><button class="button">Adicionar ao carrinho</button></a>
+=======
+                <option value="35">S</option>
+                <option value="36">M</option>
+                <option value="37">L</option>
+                <option value="38">XL</option>
+                <option value="39">XXL</option>
+                <option value="40">3XL</option>
+            </select>
+            <br>
+            <div class="preco">Preço: <?= $produto['Preco'] ?>€</div>
+            <button class="button">Adicionar ao carrinho</button>
+>>>>>>> ed697891fd5aa89578363c592c731786af1ed493
             <input type="hidden" name="id" value="<?= $produto['Codproduto'] ?>" />
             <input type="hidden" name="acao" value="add" />
         </form>
