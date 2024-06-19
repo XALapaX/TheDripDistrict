@@ -1,328 +1,334 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a:link, a:visited {
-  text-decoration: none;
+text-decoration: none;
 }
 
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
 }
 
 #logo{
-    max-width: 9em;
+  max-width: 9em;
 }
 div, section, span, ul, li, a{
-    box-sizing: border-box;
-    
+  box-sizing: border-box;
+  
 
 }
 
 .icon{
-    color:black
+  color:black
 
 }
 
 #menu li{
-    list-style: none;
-    display:inline-block;
-    margin:1rem;
+  list-style: none;
+  display:inline-block;
+  margin:1rem;
 }
 
 #menu li a {
-    color:black;
-    padding: 0.5rem;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius:3px;
+  color:black;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius:3px;
 
 }
 
 .header {
-  display: flex;
-  overflow: hidden;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
-  padding: 20px 10px ;
+display: flex;
+overflow: hidden;
+align-items: center;
+justify-content: space-between;
+background-color: white;
+padding: 20px 10px ;
 }
 
 .header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+float: left;
+color: black;
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 18px;
+line-height: 25px;
+border-radius: 4px;
 }
 
 .header a:hover {
-  background-color: white;
-  color: black;
+background-color: white;
+color: black;
 }
 
 .header a.active {
-  background-color: #231f20;
-  color: white;
+background-color: #231f20;
+color: white;
 }
 
 .header-right {
-  float: right;
+float: right;
 }
 
 @media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
+.header a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+.header-right {
+  float: none;
+}
 }
 
 section{
-    width:100%;
-    height: 100vh;
+  width:100%;
+ 
 }
 
 
 #slideshow{
-    padding-top: 2em;
-    width: 100%;
-    height: 50vh;
+  padding-top: 2em;
+  width: 100%;
+  height: 50vh;
 }
 
 #slideshow img {
-    width: 100%;
+  width: 100%;
 }
 
 .container {
-    width: 80%;
-    height: 100%;
-    max-width: 726px;
-    min-width: 320px;
-    margin: 0 auto;
-    padding: 20px;
+  width: 80%;
+  height: 100%;
+  max-width: 726px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .img-container {
-    border: 1px solid #ccc;
-    width: 100%;
-    max-width:640px;
-    margin: 0 auto;
-    padding:0;
-    cursor: ew-resize;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width:640px;
+  margin: 0 auto;
+  padding:0;
+  cursor: ew-resize;
 }
 
 .img360 {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    line-height: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
 }
 
 img {
-    width: 35%;
-    margin: 0;
-    padding: 0;
+  width: 35%;
+  margin: 0;
+  padding: 0;
 }
 
 #preload-imgs {
-    display:none;
+  display:none;
 }
 
 .card_sneakers:hover{
-    scale:1.02;
-    rotate: 2deg;  
+  scale:1.02;
+  rotate: 2deg;  
 }
 
 .productImage{
-    height: 100rem;
-    width: 100rem;
+  height: 100rem;
+  width: 100rem;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 #product_viewer {
-	max-width: 50%;
-	margin: 200px auto;
+max-width: 50%;
+margin: 200px auto;
 }
 
 #product_viewer img {
-	margin: 0;
-    display: flex;
-	width: 100%;
-    padding-right: 10rem;
+margin: 0;
+  display: flex;
+width: 100%;
+  padding-right: 10rem;
 }
 h2 {
-    text-align: center;
+  text-align: center;
 }
 #tamanho {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
 }
 .product-details {
-    position: absolute;
-    flex: 1;
-    right: 3px;
-    padding: 18rem;
-    bottom: 15rem;
+  position: absolute;
+  flex: 1;
+  right: 3px;
+  padding: 18rem;
+  bottom: 15rem;
 }
 .product-image {
-    flex: 1;
-    padding-left: 20px;
-    max-width: 150%;
+  flex: 1;
+  padding-left: 20px;
+  max-width: 150%;
 }
 #product_viewer {
-    max-width: 150%;
+  max-width: 150%;
 }
 #compraForm {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 #preco {
-    margin-bottom: 10px;
-    text-align: center;
-    font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .nike-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #f44336;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: black;
-    color: #fff;
-    border: none;
-    transition: background-color 0.3s ease;
-  }
-   
-  .nike-button:hover {
-    background-color: gray;
-  }
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+ 
+.nike-button:hover {
+  background-color: gray;
+}
 
-  section.slide{
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    padding: 0 !important;
-    overflow: hidden;
+section.slide{
+  margin: 0 auto;
+  width: 100%;
+  height: 65%;
+  padding: 0 !important;
+  overflow: hidden;
 }
 
 .produtos{
-  font-family:League Spartan;
-  font-size:30px;
-  padding-top: 30px;
-  padding-bottom: -20px;
+font-family:League Spartan;
+font-size:30px;
+padding-top:f0px;
+padding-bottom: -20px;
 }
 
 .slide-content{
-    width: 400%;
-    height: auto;
-    display: flex;
+  width: 400%;
+  height: auto;
+  display: flex;
 }
 
 .slide-box{
-    width: 25%;
-    height: auto;
-    position: relative;
-    text-align: center;
+  width: 25%;
+  height: auto;
+  position: relative;
+  text-align: center;
 }
 
 .slide-box img{
-    width: 100%;
+  width: 100%;
 }
 
 
 
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .header-right {
-  position: relative;
+position: relative;
 }
 
 .icon {
-  position: absolute;
-  right: 2%;
-  display: inline-flex;
-  justify-content: space-between;
+position: absolute;
+right: 2%;
+display: inline-flex;
+justify-content: space-between;
 }
 
 .icon2 {
-  position: absolute;
-  right: 6%;
-  display: inline-flex;
-  justify-content: space-between;
+position: absolute;
+right: 6%;
+display: inline-flex;
+justify-content: space-between;
+}
+.icon3 {
+position: absolute;
+right: 10%;
+display: inline-flex;
+justify-content: space-between;
 }
 .produtos h1 {
-  padding: 20px;
-  text-align: center;
-  font-weight: 900;
+padding: 20px;
+text-align: center;
+font-weight: 900;
 }
 
 .product-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding-top: 1em;
-  width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding-top: 1em;
+width: 100%;
 }
 
 .product-item {
-  width: 30%;
-  height: fit-content;
-  margin: 10px;
-  font-family: League Spartan;
-  text-align: center;
-  border-radius: 2em;
-  border: black 5px solid;
-  transition: 0.4s;
-  border-radius: 5px;
+width: 30%;
+height: fit-content;
+margin: 10px;
+font-family: League Spartan;
+text-align: center;
+border-radius: 2em;
+border: black 5px solid;
+transition: 0.4s;
+border-radius: 5px;
 }
 
 .innerProduct {
-  background-color: black;
-  color: white;
-  text-align: left;
-  padding: 0.5em;
-  font-size: LARGE;
+background-color: black;
+color: white;
+text-align: left;
+padding: 0.5em;
+font-size: LARGE;
 }
 
 .innerProduct h5{
-  padding-top: 7px;
+padding-top: 7px;
 }
 
 .product-name {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 10px;
 }
 
 .product-img {
@@ -330,31 +336,31 @@ width: 100%;
 }
 
 .product-price {
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 10px;
+font-size: 16px;
+font-weight: bold;
+margin-top: 10px;
 }
 
 #section{
-  margin-top: 100px;
+margin-top: 100px;
 }
 
 .container {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
+width: 80%;
+margin: auto;
+overflow: hidden;
 }
 
 @media screen and (max-width: 480px) {
-  .container {
-       width: 100%;
-   }
+.container {
+     width: 100%;
+ }
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-       width: 90%;
-   }
+.container {
+     width: 90%;
+ }
 }   
 
 .sidebar {
@@ -364,26 +370,153 @@ width: 100%;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #231f20;
+  background-color: white;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.9); /* Add shadow on the right side */
 }
 
 .sidebar-content {
-  padding: 16px;
-  color: white;
+padding: 16px;
+color: black;
 }
 
 .sidebar a {
-  padding: 10px 15px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
-  transition: 0.3s;
+padding: 10px 15px;
+text-decoration: none;
+font-size: 25px;
+color: white;
+display: block;
+transition: 0.3s;
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+color: #f1f1f1;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: white;
+  color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.9); /* Add shadow on the right side */
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#userLogo, #cartLogo {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  transition: width 0.3s;
+}
+
+.sidebar-content {
+  padding: 15px;
+  color: black;
+  text-align: left;
+}
+
+/* Adjust logo size on hover (optional) */
+#userLogo:hover, #cartLogo:hover {
+  width: 120px; /* Increase the size on hover */
+}
+
+.sidebar img {
+  width: 170px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.clear-cart-button {
+  margin-top: 20px; /* Adjust the value to move the button further down or up */
+  text-align: center; /* Optional: center align the button */
+}
+
+.clear-cart-button button {
+  padding: 10px 20px; /* Optional: Add padding for a better look */
+  background-color: #f44336; /* Optional: Change background color */
+  color: white; /* Optional: Change text color */
+  border: none; /* Optional: Remove border */
+  cursor: pointer; /* Optional: Change cursor on hover */
+}
+
+.clear-cart-button button:hover {
+  background-color: #d32f2f; /* Optional: Change background color on hover */
+}
+
+.checkout-button-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-button-container button{
+  width: 400px;
+}
+
+/* Button styles */
+button {
+  border-radius: 10px;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #111; /* Nike's typical black button */
+  color: white;
+  border: 2px solid #111; /* Border with the same color as the background */
+  cursor: pointer;
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.7s, color 0.7s, border-color 0.7s;
+}
+
+button:hover {
+  background-color: white;
+  color: #111;
+  border-color: #111; /* Border color change on hover */
+}
+
+.clear-cart-button button {
+  margin-top: 20px;
+}
+
+/* Specific styles for the table buttons */
+table form button {
+  display: inline-block;
+  margin: 5px 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #111; /* Nike's typical black button */
+  color: white;
+  border: 2px solid #111; /* Border with the same color as the background */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+table form button:hover {
+  background-color: white;
+  color: #111;
+  border-color: #111; /* Border color change on hover */
+}
+
+.indicator {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: none; /* Hide by default */
 }

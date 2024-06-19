@@ -139,15 +139,10 @@ body {
     <script src="https://kit.fontawesome.com/cc217ac7a1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
-    <div class="header">
-        <a href="index.php"><img id="logo" src="images/Logo.png" alt="Site Logo"></a>
-        <a href="login.php" class="icon"><i class="fa-solid fa-user" style="color: #231f10"></i></a>
-    </div>
-</header>
+<?php include_once("menu.php"); ?>
 
 <section>
-    <a href="index.php" class="icon2"><i class="fa-solid fa-arrow-left" style="color: #231f10;"></i></a>
+    <a href="index.php" class="icon9"><i class="fa-solid fa-arrow-left" style="color: #231f10;"></i></a>
 </section>
 
 <section class="product-container">
@@ -156,19 +151,21 @@ body {
     </div>
     <div class="product-details">
         <h4><?= $produto['Nome'] ?></h4>
-        <form id="compraForm">
+        <form id="compraForm"  action="carrinho.php" method="post">
             <label for="tamanho">Escolha o tamanho:</label>
-            <select id="tamanho">
-                <option value="35">S</option>
-                <option value="36">M</option>
-                <option value="37">L</option>
-                <option value="38">XL</option>
-                <option value="39">XXL</option>
-                <option value="40">3XL</option>
+            <select id="tamanho" name="tamanho">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+                <option value="3XL">3XL</option>
             </select>
             <br>
             <div class="preco">Preço: <?= $produto['Preco'] ?>€</div>
-            <button class="button">Adicionar ao carrinho</button>
+            <a href="#"><button class="button">Adicionar ao carrinho</button></a>
+            <input type="hidden" name="id" value="<?= $produto['Codproduto'] ?>" />
+            <input type="hidden" name="acao" value="add" />
         </form>
     </div>
 </section>

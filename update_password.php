@@ -52,7 +52,7 @@
 <body>
 
     <header>
-        <a href="index.php"><img id="logo" src="images/Logo.png" alt="Site's logo"></a>
+        <a href="login.php"><img id="logo" src="images/Logo.png" alt="Site's logo"></a>
     </header>
 
     <div class="container" id="container">
